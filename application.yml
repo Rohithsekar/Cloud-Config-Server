@@ -18,3 +18,7 @@ microservice:
     endpoints:
       endpoint:
         uri: http://order-service/order/book
+  admin-service:
+    endpoints:
+      endpoint:
+        uri: http://admin-service/admin
